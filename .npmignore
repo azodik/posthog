@@ -28,8 +28,9 @@ package-lock.json
 **/*.spec.*
 coverage/
 
-# Documentation
+# Documentation and examples
 docs/
+examples/
 *.md
 !README.md
 
