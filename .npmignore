@@ -1,0 +1,47 @@
+# Source files
+src/
+tsconfig.json
+
+# Development files
+.github/
+.vscode/
+*.log
+*.tsbuildinfo
+
+# Build artifacts (will be included via dist/)
+!dist/
+
+# Dependencies
+node_modules/
+
+# Package manager files
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Environment files
+.env*
+!.env.example
+
+# Test files
+**/*.test.*
+**/*.spec.*
+coverage/
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
